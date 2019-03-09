@@ -8,7 +8,12 @@ class Player extends Component{
           <div className="container">
             <div className="d-flex justify-content-around">
                 <div className="d-flex align-items-center">
-                    <spam>Wp</spam>
+                    <div className="d-flex flex-column">
+                        <spam className="text-center">Predicted to Win</spam>
+                        <div className="bg-secondary p-5">
+                            <spam>Team Name</spam>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <table>

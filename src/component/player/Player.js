@@ -19,7 +19,7 @@ class Player extends Component{
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="mb-2">
                     <table>
                       <tr>
                         <th></th>
@@ -85,17 +85,58 @@ class Player extends Component{
                 </div>
             </div>
             
+            <div className="d-flex mb-1">
+              <spam className="ml-auto">Add to Compare</spam>
+            </div>
             
-            <div className="d-flex flex-column" style={{'width': '150px'}}>
-                <spam className="badge badge-light px-3 my-1">Team Name 1</spam>
-                <spam className="badge badge-primary px-3 my-1">Team Name 2</spam>
-                <spam className="badge badge-primary px-3 my-1">Team Name 3</spam>
-                <spam className="badge badge-primary px-3 my-1">Team Name 4</spam>
-                <spam className="badge badge-primary px-3 my-1">Team Name 5</spam>
-                <spam className="badge badge-primary px-3 my-1">Team Name 6</spam>
-                <spam className="badge badge-primary px-3 my-1">Team Name 7</spam>
-                <spam className="badge badge-primary px-3 my-1">Team Name 8</spam>
-                <spam className="badge badge-primary px-3 my-1">Team Name 9</spam>
+            <div className="d-flex justify-content-between">
+              <div className="d-flex flex-column" style={{'width': '150px'}}>
+                  <spam className="badge badge-light px-3 my-1">Team Name 1</spam>
+                  <spam className="badge badge-primary px-3 my-1">Team Name 2</spam>
+                  <spam className="badge badge-primary px-3 my-1">Team Name 3</spam>
+                  <spam className="badge badge-primary px-3 my-1">Team Name 4</spam>
+                  <spam className="badge badge-primary px-3 my-1">Team Name 5</spam>
+                  <spam className="badge badge-primary px-3 my-1">Team Name 6</spam>
+                  <spam className="badge badge-primary px-3 my-1">Team Name 7</spam>
+                  <spam className="badge badge-primary px-3 my-1">Team Name 8</spam>
+                  <spam className="badge badge-primary px-3 my-1">Team Name 9</spam>
+              </div>
+              
+              <div className="d-flex flex-column">
+                <div className="mb-1">
+                  <button className="bg-success mr-3 py-0">+</button>
+                  <button className="bg-danger py-0">-</button>
+                </div>
+                <div className="mb-1">
+                  <button className="bg-success mr-3 py-0">+</button>
+                  <button className="bg-danger py-0">-</button>
+                </div>
+                <div className="mb-1">
+                  <button className="bg-success mr-3 py-0">+</button>
+                  <button className="bg-danger py-0">-</button>
+                </div>
+                <div className="mb-1">
+                  <button className="bg-success mr-3 py-0">+</button>
+                  <button className="bg-danger py-0">-</button>
+                </div>
+                <div className="mb-1">
+                  <button className="bg-success mr-3 py-0">+</button>
+                  <button className="bg-danger py-0">-</button>
+                </div>
+                <div className="mb-1">
+                  <button className="bg-success mr-3 py-0">+</button>
+                  <button className="bg-danger py-0">-</button>
+                </div>
+                <div className="mb-1">
+                  <button className="bg-success mr-3 py-0">+</button>
+                  <button className="bg-danger py-0">-</button>
+                </div>
+                <div className="mb-1">
+                  <button className="bg-success mr-3 py-0">+</button>
+                  <button className="bg-danger py-0">-</button>
+                </div>
+              </div>
+              
             </div>
           </div>
       );

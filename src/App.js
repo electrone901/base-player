@@ -12,6 +12,9 @@ import store from './store';
 import Navbar from './component/layout/Navbar';
 import Footer from './component/layout/Footer';
 import Deals from './component/deals/Deals';
+
+
+
 import AddDeal from './component/deals/AddDeal';
 import Deal from './component/deals/Deal';
 import AddReview from './component/review/AddReview';
@@ -21,6 +24,11 @@ import Login from './component/auth/Login';
 import Portfolio from './component/portfolio/Portfolio';
 import Transactions from './component/transactions/Transactions';
 import Stocks from './component/stocks/Stocks';
+
+
+// BASEBALL
+import Options from './component/baseball/Options';
+import PlayerView from './component/baseball/PlayerView';
 
 if(localStorage.jwtToken){
   setAuthToken(localStorage.jwtToken);
@@ -45,16 +53,12 @@ class App extends Component {
           <div className="App">
             <Navbar />
             <div>
-              <Route exact path="/" component={Deals} />
+              <Route exact path="/" component={Options} />
+              <Route exact path="/players" component={PlayerView} />
               <Route exact path="/addDeal" component={AddDeal} />
-              <Route exact path="/register" component={Register} />
-              <Route exact path="/login" component={Login} />
               <Route exact path="/addReview/:id" component={AddReview} />
               <Switch>
-                 <PrivateRoute exact path="/portfolio" component={Portfolio} />
                  <Route exact path="/deal/:id" component={Deal} />
-                 <PrivateRoute exact path="/transactions" component={Transactions} />
-                 <PrivateRoute exact path="/stocks" component={Stocks} />
               </Switch>
             </div>
             <Footer />

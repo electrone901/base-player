@@ -86,16 +86,16 @@ class Player extends Component{
             </div>
             
             
-            <div>
-                <ul>
-                  <li>Team 1
-                    <ul>
-                      <li>Player 1</li>
-                      <li>Player 2</li>
-                    </ul>
-                  </li>
-                  <li>Team 2</li>
-                </ul>
+            <div className="d-flex flex-column" style={{'width': '150px'}}>
+                <spam className="badge badge-light px-3 my-1">Team Name 1</spam>
+                <spam className="badge badge-primary px-3 my-1">Team Name 2</spam>
+                <spam className="badge badge-primary px-3 my-1">Team Name 3</spam>
+                <spam className="badge badge-primary px-3 my-1">Team Name 4</spam>
+                <spam className="badge badge-primary px-3 my-1">Team Name 5</spam>
+                <spam className="badge badge-primary px-3 my-1">Team Name 6</spam>
+                <spam className="badge badge-primary px-3 my-1">Team Name 7</spam>
+                <spam className="badge badge-primary px-3 my-1">Team Name 8</spam>
+                <spam className="badge badge-primary px-3 my-1">Team Name 9</spam>
             </div>
           </div>
       );

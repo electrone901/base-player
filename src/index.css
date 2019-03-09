@@ -54,7 +54,6 @@ body {
 .container2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .container2-item-btn {
@@ -160,7 +159,7 @@ body {
   padding-left: 20%;
 }
 .author-name {
-  margin-top: -15px;
+  margin-top: 10px;
 }
 
 /* NAVBAR */
@@ -356,7 +355,6 @@ Description     : A file that contains all styles for Carousel.js.
 
   .space-top {
     padding-top: 10px;
-    padding-bottom: 17px;
   }
   p {
     margin-top: 0;
@@ -376,7 +374,7 @@ Description     : A file that contains all styles for Carousel.js.
   }
   .author-name {
     margin-top: 0px;
-    padding-bottom: 7px;
+    margin-top: 17px;
   }
 
   .thumbnail-review {
@@ -384,14 +382,40 @@ Description     : A file that contains all styles for Carousel.js.
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0px;
-    height: 100px;
-    width: 112px;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
   }
 
   .helpful {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
   }
+  .btn-reaction {
+    text-transform: uppercase;
+    background-color: #5fe556;
+    border: none;
+    color: white;
+    padding: 5px 24px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+  .btn-info-helpfulsmall {
+    text-transform: uppercase;
+    padding: 5px 24px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    background-color: #e2e7eb;
+    color: #686F7A;
+    font-weight: 800;
+    border: 1px solid #CACBCC;
+    width: 50px;
+}
+
   .spinner {
     width: auto;
     margin: auto;

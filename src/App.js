@@ -55,7 +55,7 @@ class App extends Component {
             <div>
               <Route exact path="/" component={Options} />
               <Route exact path="/players" component={PlayerView} />
-              <Route exact path="/addDeal" component={AddDeal} />
+              <Route exact path="/deals" component={Deals} />
               <Route exact path="/addReview/:id" component={AddReview} />
               <Switch>
                  <Route exact path="/deal/:id" component={Deal} />

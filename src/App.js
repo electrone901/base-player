@@ -9,6 +9,8 @@ import { setCurrentUser, logoutUser } from './actions/authActions';
 
 import store from './store';
 
+import Player from './component/player/Player';
+
 import Navbar from './component/layout/Navbar';
 import Footer from './component/layout/Footer';
 import Deals from './component/deals/Deals';
@@ -47,6 +49,7 @@ class App extends Component {
               <Route exact path="/addDeal" component={AddDeal} />
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
+              <Route exact path="/player" component={Player} />
               <Switch>
                  <PrivateRoute exact path="/portfolio" component={Portfolio} />
                  <PrivateRoute exact path="/transactions" component={Transactions} />

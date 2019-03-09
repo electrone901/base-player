@@ -13,7 +13,7 @@ class Player extends Component{
                 <div>
                     <table>
                       <tr>
-                        <th>Stat</th>
+                        <th></th>
                         <th>T1</th>
                         <th>T2</th>
                       </tr>
@@ -23,14 +23,9 @@ class Player extends Component{
                         <td>12</td>
                       </tr>
                       <tr>
-                        <td>HR</td>
+                        <td>Avg</td>
                         <td>21</td>
                         <td>17</td>
-                      </tr>
-                      <tr>
-                        <td>B</td>
-                        <td>32</td>
-                        <td>24</td>
                       </tr>
                       <tr>
                         <td>H</td>
@@ -38,12 +33,42 @@ class Player extends Component{
                         <td>64</td>
                       </tr>
                       <tr>
+                        <td>HR</td>
+                        <td>21</td>
+                        <td>17</td>
+                      </tr>
+                      <tr>
+                        <td>RBI</td>
+                        <td>51</td>
+                        <td>37</td>
+                      </tr>
+                      <tr>
+                        <td>SB</td>
+                        <td>4</td>
+                        <td>7</td>
+                      </tr>
+                      <tr>
                         <td>W</td>
                         <td>10</td>
                         <td>12</td>
                       </tr>
                       <tr>
-                        <td>L</td>
+                        <td>ERA</td>
+                        <td>3.23</td>
+                        <td>4.45</td>
+                      </tr>
+                      <tr>
+                        <td>S.O.</td>
+                        <td>67</td>
+                        <td>87</td>
+                      </tr>
+                      <tr>
+                        <td>WHIP</td>
+                        <td>.456</td>
+                        <td>.345</td>
+                      </tr>
+                      <tr>
+                        <td>B.B</td>
                         <td>23</td>
                         <td>21</td>
                       </tr>

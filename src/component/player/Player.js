@@ -6,11 +6,15 @@ class Player extends Component{
       
       return(
           <div className="container">
+            <div className="d-flex flex-column ml-auto" style={{'width': '200px'}}>
+                <button className="btn btn-light mb-2">Choose Team</button>
+                <button className="btn btn-primary mb-2">Choose Players</button>
+            </div>
             <div className="d-flex justify-content-around">
                 <div className="d-flex align-items-center">
                     <div className="d-flex flex-column">
                         <spam className="text-center">Predicted to Win</spam>
-                        <div className="bg-secondary p-5">
+                        <div className="bg-light p-5">
                             <spam>Team Name</spam>
                         </div>
                     </div>
@@ -23,57 +27,57 @@ class Player extends Component{
                         <th>T2</th>
                       </tr>
                       <tr>
-                        <td>Rank</td>
+                        <td className="badge badge-light px-3">Rank</td>
                         <td>6</td>
                         <td>12</td>
                       </tr>
                       <tr>
-                        <td>Avg</td>
+                        <td className="badge badge-light px-3">Avg</td>
                         <td>21</td>
                         <td>17</td>
                       </tr>
                       <tr>
-                        <td>H</td>
+                        <td className="badge badge-light px-3">H</td>
                         <td>45</td>
                         <td>64</td>
                       </tr>
                       <tr>
-                        <td>HR</td>
+                        <td className="badge badge-light px-3">HR</td>
                         <td>21</td>
                         <td>17</td>
                       </tr>
                       <tr>
-                        <td>RBI</td>
+                        <td className="badge badge-light px-3">RBI</td>
                         <td>51</td>
                         <td>37</td>
                       </tr>
                       <tr>
-                        <td>SB</td>
+                        <td className="badge badge-light px-3">SB</td>
                         <td>4</td>
                         <td>7</td>
                       </tr>
                       <tr>
-                        <td>W</td>
+                        <td className="badge badge-light px-3">W</td>
                         <td>10</td>
                         <td>12</td>
                       </tr>
                       <tr>
-                        <td>ERA</td>
+                        <td className="badge badge-light px-3">ERA</td>
                         <td>3.23</td>
                         <td>4.45</td>
                       </tr>
                       <tr>
-                        <td>S.O.</td>
+                        <td className="badge badge-light px-3">S.O.</td>
                         <td>67</td>
                         <td>87</td>
                       </tr>
                       <tr>
-                        <td>WHIP</td>
+                        <td className="badge badge-light px-3">WHIP</td>
                         <td>.456</td>
                         <td>.345</td>
                       </tr>
                       <tr>
-                        <td>B.B</td>
+                        <td className="badge badge-light px-3">B.B</td>
                         <td>23</td>
                         <td>21</td>
                       </tr>

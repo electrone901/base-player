@@ -8,8 +8,8 @@ class PlayerView extends Component {
         super();
         this.state = {
             data: [
-                {'img':'img/MikeTrout.png',  'Name':'Jose Altuve', 'ID':'1616381c-d6ac-40b1-8c3f-c70d51bda098', 'Type':'Hitter', 'Position':'2B'},
-				{'img':'img/JoseAltuve.png',  'Name':'Victor Martínez', 'ID':'f27a7574-57db-4eeb-8f88-377048806de2', 'Type':'Hitter', 'Position':'1B,C'},
+                {'img':'img/JoseAltuve.png',  'Name':'Jose Altuve', 'ID':'1616381c-d6ac-40b1-8c3f-c70d51bda098', 'Type':'Hitter', 'Position':'2B'},
+				{'img':'img/MikeTrout.png',  'Name':'Victor Martínez', 'ID':'f27a7574-57db-4eeb-8f88-377048806de2', 'Type':'Hitter', 'Position':'1B,C'},
 				{'img':'img/MichaelBrantley.png',  'Name':'Michael Brantley', 'ID':'e7a7c661-1c6f-42a1-b4fb-edc2da7fb750', 'Type':'Hitter', 'Position':'LF'},
 				{'img':'img/AdrianBeltre.png',  'Name':'Adrián Béltre', 'ID':'5aa0effe-3eea-4f1d-b4e2-d2d65069cc90', 'Type':'Hitter', 'Position':'3B,1B'},
 				{'img':'img/JoséAbreu.png',  'Name':'José ABreu', 'ID':'b59c6ed2-061e-4c9b-b624-2d1aee74853c', 'Type':'Hitter', 'Position':'1B'},

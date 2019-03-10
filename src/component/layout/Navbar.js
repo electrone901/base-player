@@ -35,7 +35,7 @@ class Navbar extends Component {
     const guestLinks = (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <Link className="nav-link" to="/players">
+          <Link className="nav-link" to="/team">
             Choose Team
           </Link>
         </li>

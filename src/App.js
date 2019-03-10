@@ -29,6 +29,7 @@ import Stocks from './component/stocks/Stocks';
 // BASEBALL
 import Options from './component/baseball/Options';
 import PlayerView from './component/baseball/PlayerView';
+import Player from './component/baseball/TeamView';
 
 if(localStorage.jwtToken){
   setAuthToken(localStorage.jwtToken);
@@ -55,6 +56,7 @@ class App extends Component {
             <div>
               <Route exact path="/" component={Options} />
               <Route exact path="/players" component={PlayerView} />
+              <Route exact path="/team" component={Player} />
               <Route exact path="/deals" component={Deals} />
               <Route exact path="/addReview/:id" component={AddReview} />
               <Switch>
